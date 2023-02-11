@@ -1,0 +1,49 @@
+.counterButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(86, 111, 238);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition-duration: 200ms;
+    /* padding-top: 25px; */
+    /* padding-left: 60px; */
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .counterButton:active {
+    transform: scale(0.9);
+  }
+  .counterDisplay {
+    display: flex;
+    font-size: 48px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  .counterStep {
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonGroup {
+    margin-bottom: 20px;
+  }
+  .buttonGroup:last-child {
+    margin: 0;
+  }
+  .counterButton:last-child {
+    margin-bottom: 0;
+  }
+  
