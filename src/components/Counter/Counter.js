@@ -58,7 +58,7 @@ export class Counter extends Component {
         </div>
         <div className={css.buttonGroup}>
           <button className={css.counterButton} onClick={this.reset}>
-            Reset counter!
+            Reset counter
           </button>
         </div>
       </div>
